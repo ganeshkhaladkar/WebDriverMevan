@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regresion Suite">
+  <test name="Regresion validation Test">
+    <classes>
+      
+     
+      
+      <class name="regresion.TestCase2Assert"/>
+      
+    </classes>
+  </test>
+  <test name="Regresion dependancy Test">
+    <classes>
+      
+     
+      <class name="regresion.TestCase3_TestDependance"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Regresion Suite -->

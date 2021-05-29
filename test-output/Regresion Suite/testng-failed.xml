@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regresion Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regresion validation Test(failed)">
+    <classes>
+      <class name="regresion.TestCase2Assert">
+        <methods>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- regresion.TestCase2Assert -->
+    </classes>
+  </test> <!-- Regresion validation Test(failed) -->
+  <test thread-count="5" name="Regresion dependancy Test(failed)">
+    <classes>
+      <class name="regresion.TestCase3_TestDependance">
+        <methods>
+          <include name="doLogin"/>
+          <include name="fourthTest"/>
+          <include name="doReg"/>
+        </methods>
+      </class> <!-- regresion.TestCase3_TestDependance -->
+    </classes>
+  </test> <!-- Regresion dependancy Test(failed) -->
+</suite> <!-- Failed suite [Regresion Suite] -->
